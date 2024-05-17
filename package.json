@@ -1,0 +1,21 @@
+{
+  "name": "doniabatool_advnture-game",
+  "version": "1.0.0",
+  "description": "This project is not GUI based. It is a console-based game. The video here shows how to develop the game in Java. \r You will take the requirements of the game from the video and develop the game in TypeScript and Node.js",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {"access": "public"},
+  "bin": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.21"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
